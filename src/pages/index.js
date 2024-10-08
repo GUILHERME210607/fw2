@@ -1,3 +1,7 @@
+import Menu from "./components/navbar"
 export default function index() {
-  return<h1>Olá Next</h1>
+  return <>
+  <Menu />
+  <h1>Olá Turma 6V</h1>
+  </>
 }
