@@ -1,7 +1,14 @@
 import Menu from "./components/navbar"
-export default function index() {
+import { Container } from "react-bootstrap";
+export default function Footer() {
   return <>
   <Menu />
-  <h1>Olá Turma 6V</h1>
+  
+  <Container>
+    <h1>Olá Turma 6V</h1>
+  </Container>
+  <footer>
+
+  </footer>
   </>
 }
