@@ -3,8 +3,8 @@ import style from "@/styles/Navbar.module.css"
 
 export default function Menu() {
   return (
-    <Container>
-      <Navbar expand="sm" bg="dark" data-bs-theme="dark" className={`${style.degrademenu} p-2 border border-2 border-warning rounded-2`}>
+    <Container className={`${style.degrademenu} p-2 border border-2 border-warning rounded-2`}>
+      <Navbar expand="sm" bg="dark" data-bs-theme="dark" >
           <Navbar.Brand href="/">6V</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
